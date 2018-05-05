@@ -64,7 +64,7 @@ import VEMA5
 import alpha66
 import alpha108
 import alpha187
-import variance120,PEHIST60,ROE_J
+import variance120,PEHIST60,ROEWeighted
 
-for f in ['ETOP5','VEMA5','alpha66','alpha108','alpha187','variance120','PEHIST60','ROE_J']:
+for f in ['ETOP5','VEMA5','alpha66','alpha108','alpha187','variance120','PEHIST60','ROEWeighted']:
     test(f, globals()[f].run_formula(dv))
